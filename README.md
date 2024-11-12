@@ -22,13 +22,18 @@ Pour que l'application fonctionne correctement, suivez ces étapes pour installe
 
 1. **Cloner le dépôt GitHub** : Clonez le dépôt sur votre machine locale.
    ```bash
-   git clone https://github.com/votreutilisateur/votreprojet.git
+   git clone https://github.com/yannamer/MLproject.git
    cd Energyconsumption
    ```
 
 2. **Installation des dépendances** :
    ```bash
    pip install -r requirements.txt
+   ```
+
+2. **Lancement de MLflow avant le run de Energy consumption.ipynb** :
+   ```bash
+   mlflow ui
    ```
 
 ## Description du Dataset
