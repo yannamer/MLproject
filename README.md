@@ -18,7 +18,7 @@ Ce projet propose une solution de prévision de la consommation énergétique à
 
 ## Installation
 
-Pour que l'application fonctionne correctement, suivez ces étapes pour installer l'environnement et les dépendances :
+Pour que l'application fonctionne correctement, suivez ces étapes pour installer les dépendances :
 
 1. **Cloner le dépôt GitHub** : Clonez le dépôt sur votre machine locale.
    ```bash
@@ -26,22 +26,7 @@ Pour que l'application fonctionne correctement, suivez ces étapes pour installe
    cd Energyconsumption
    ```
 
-2. **Création d'un environnement virtuel** :
-   ```bash
-   python -m venv venv
-   ```
-
-3. **Activation de l’environnement virtuel** :
-   - Si vous êtes sous Windows :
-     ```bash
-     .\venv\Scripts\activate
-     ```
-   - Si vous êtes sous macOS/Linux :
-     ```bash
-     source venv/bin/activate
-     ```
-
-4. **Installation des dépendances** :
+2. **Installation des dépendances** :
    ```bash
    pip install -r requirements.txt
    ```
