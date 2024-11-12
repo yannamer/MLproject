@@ -18,6 +18,7 @@ Ce projet propose une solution de prévision de la consommation énergétique à
 
 ## Installation
 
+La version de python utilisée pour créer ce projet est 3.8.10.
 Pour que l'application fonctionne correctement, suivez ces étapes pour installer les dépendances :
 
 1. **Cloner le dépôt GitHub** : Clonez le dépôt sur votre machine locale.
@@ -31,7 +32,7 @@ Pour que l'application fonctionne correctement, suivez ces étapes pour installe
    pip install -r requirements.txt
    ```
 
-2. **Lancement de MLflow avant le run de Energy consumption.ipynb** :
+2. **Lancement de MLflow avant le run de Energy consumption.ipynb**, l'adresse sera **http://127.0.0.1:5000** :
    ```bash
    mlflow ui
    ```
@@ -62,7 +63,7 @@ Le notebook **Energy consumption.ipynb** a pour but de séléctionner le meilleu
 
 ## Détails de l'Application (app.py)
 
-Le fichier `app.py` contient le code Flask qui sert d’API et fournit une interface utilisateur pour entrer les valeurs des paramètres nécessaires à la prévision de la consommation énergétique. Les fonctionnalités principales sont :
+Le fichier `app.py` contient le code Flask qui sert d’API et fournit une interface utilisateur pour entrer les valeurs des paramètres nécessaires à la prévision de la consommation énergétique. Lors du lancement du code app.py, votre terminal vous proposera de vous rendre sur l'adresse **http://127.0.0.1:5001** afin d'accéder à l'interface. Les fonctionnalités principales sont :
 
 - **Route `/`** : Accueille l’utilisateur avec un formulaire de saisie pour la prévision de la consommation énergétique.
 - **Route `/forecast`** : Calcule la consommation énergétique annuelle en fonction des valeurs saisies et retourne les prévisions de consommation pour des températures normales et une température basse constante.
