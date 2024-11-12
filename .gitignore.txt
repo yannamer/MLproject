@@ -32,3 +32,8 @@ models/*.joblib
 
 # Ignorer les fichiers de configuration de MLflow (si utilisés)
 mlruns/
+
+# Ignorer le venv
+.venv/
+venv/
+
