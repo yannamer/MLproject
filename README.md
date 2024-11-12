@@ -60,7 +60,7 @@ Il contient les données de consommation énergétique avec les colonnes suivant
 - **DayOfWeek** et **Holiday** : Jour de la semaine et statut jour férié.
 - **EnergyConsumption** : Consommation d'énergie en kWh.
 
-## Étapes du Notebook
+## Étapes du Notebook (Energy consumption.ipynb)
 
 Le notebook **Energy consumption.ipynb** a pour but de séléctionner le meilleur model avec les meilleurs paramètres pour le futur focrecast.Il suit un processus en plusieurs étapes pour développer le modèle :
 
