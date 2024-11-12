@@ -6,8 +6,8 @@
 - [Présentation](#présentation)
 - [Installation](#installation)
 - [Description du Dataset](#description-du-dataset)
-- [Étapes du Notebook](#étapes-du-notebook)
-- [Détails de l'Application Flask (app.py)](#détails-de-lapplication-flask-apppy)
+- [Étapes du Notebook (Energy consumption.ipynb)](#etapes-du-notebook-energy-consumptionipynb)
+- [Détails de l'Application (app.py)](#détails-de-lapplication-apppy)
 - [Interface Utilisateur](#interface-utilisateur)
 
 ---
@@ -60,7 +60,7 @@ Il contient les données de consommation énergétique avec les colonnes suivant
 - **DayOfWeek** et **Holiday** : Jour de la semaine et statut jour férié.
 - **EnergyConsumption** : Consommation d'énergie en kWh.
 
-## Étapes du Notebook
+## Étapes du Notebook (Energy consumption.ipynb)
 
 Le notebook **Energy consumption.ipynb** a pour but de séléctionner le meilleur model avec les meilleurs paramètres pour le futur focrecast.Il suit un processus en plusieurs étapes pour développer le modèle :
 
@@ -70,7 +70,7 @@ Le notebook **Energy consumption.ipynb** a pour but de séléctionner le meilleu
 4. **Validation croisée et GridSearch** : Optimisation des hyperparamètres pour chaque modèle à l’aide de GridSearchCV et stockage des meilleurs modèles dans MLflow.
 5. **Entraînement final** : Entraînement du modèle choisi avec les meilleurs paramètres trouvés et sauvegarde pour utilisation dans l’application Flask.
 
-## Détails de l'Application Flask (app.py)
+## Détails de l'Application (app.py)
 
 Le fichier `app.py` contient le code Flask qui sert d’API et fournit une interface utilisateur pour entrer les valeurs des paramètres nécessaires à la prévision de la consommation énergétique. Les fonctionnalités principales sont :
 
