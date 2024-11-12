@@ -1,0 +1,2 @@
+Best Parameters for HistGradientBoosting: {'model__learning_rate': 0.1, 'model__max_depth': 10, 'model__max_iter': 200}
+Best RMSE for HistGradientBoosting: 4.343748292526523

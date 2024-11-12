@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forecast Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body class="forecast-page">
+    <div class="forecast-container">
+        <h1>Energy Consumption Forecast</h1>
+        <br>
+        <p><strong>Prediction for the next year (without after the energy renovation):</strong> {{ total_annual_consumption_normal }} kWh</p>
+        <p><strong>Prediction for the next year (with the energy renovation):</strong> {{ total_annual_consumption_zero }} kWh</p>
+        <br>
+        <br>
+        <p class="savings"><strong>Difference between with and without energy renovation:</strong> {{ consumption_difference }} kWh</p>
+        <p class="savings"><strong>Estimated Savings:</strong> €{{ savings_euros }}</p>
+        <br>
+        <a href="/" class="back-button">Back to Form</a>
+    </div>
+</body>
+</html>

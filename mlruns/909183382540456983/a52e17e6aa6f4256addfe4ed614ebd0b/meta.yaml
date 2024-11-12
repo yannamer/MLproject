@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/909183382540456983/a52e17e6aa6f4256addfe4ed614ebd0b/artifacts
+deleted_time: 1730760772618
+end_time: null
+entry_point_name: ''
+experiment_id: '909183382540456983'
+lifecycle_stage: deleted
+run_id: a52e17e6aa6f4256addfe4ed614ebd0b
+run_name: smiling-gnat-784
+run_uuid: a52e17e6aa6f4256addfe4ed614ebd0b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730758656748
+status: 1
+tags: []
+user_id: Yanna

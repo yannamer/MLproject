@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/909183382540456983/ebc5d6b66f124473aaae793492786b17/artifacts
+end_time: 1730764053169
+entry_point_name: ''
+experiment_id: '909183382540456983'
+lifecycle_stage: active
+run_id: ebc5d6b66f124473aaae793492786b17
+run_name: HistGradientBoosting
+run_uuid: ebc5d6b66f124473aaae793492786b17
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730764053063
+status: 4
+tags: []
+user_id: Yanna

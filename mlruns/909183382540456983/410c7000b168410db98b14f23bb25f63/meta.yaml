@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/909183382540456983/410c7000b168410db98b14f23bb25f63/artifacts
+end_time: 1730761933586
+entry_point_name: ''
+experiment_id: '909183382540456983'
+lifecycle_stage: active
+run_id: 410c7000b168410db98b14f23bb25f63
+run_name: Random Forest
+run_uuid: 410c7000b168410db98b14f23bb25f63
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730761892247
+status: 3
+tags: []
+user_id: Yanna

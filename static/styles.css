@@ -1,0 +1,121 @@
+/* Style global pour le corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Style pour la page de formulaire */
+.form-page {
+    background: linear-gradient(to bottom, #5cd6ff, #FFFFFF);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.form-container {
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    text-align: left;
+}
+
+.form-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.form-field {
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+.form-field label {
+    font-size: 14px;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+.form-field input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333333;
+}
+
+.form-field input::placeholder {
+    color: #A9A9A9;
+}
+
+/* Style du bouton de validation */
+.submit-button {
+    background-color: #007BFF;
+    color: white;
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+/* Style pour la page de résultats de forecast */
+.forecast-page {
+    background-color: #EEEEEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.forecast-container {
+    text-align: left;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.forecast-container h1 {
+    font-size: 35px;
+}
+
+.forecast-container p {
+    margin-bottom: 15px;
+}
+
+.forecast-container .savings {
+    /* color: #007BFF; */
+}
+
+.back-button {
+    background-color: #000000;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+}

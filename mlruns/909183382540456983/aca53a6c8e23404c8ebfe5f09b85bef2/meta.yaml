@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/909183382540456983/aca53a6c8e23404c8ebfe5f09b85bef2/artifacts
+end_time: 1730762616897
+entry_point_name: ''
+experiment_id: '909183382540456983'
+lifecycle_stage: active
+run_id: aca53a6c8e23404c8ebfe5f09b85bef2
+run_name: XGBoost
+run_uuid: aca53a6c8e23404c8ebfe5f09b85bef2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730762602682
+status: 3
+tags: []
+user_id: Yanna
