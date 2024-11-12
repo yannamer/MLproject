@@ -22,7 +22,7 @@ Pour que l'application fonctionne correctement, suivez ces étapes pour installe
 
 1. **Cloner le dépôt GitHub** : Clonez le dépôt sur votre machine locale.
    ```bash
-   git clone https://github.com/votreutilisateur/votreprojet.git
+   git clone https://github.com/yannamer/MLproject.git
    cd Energyconsumption
    ```
 
