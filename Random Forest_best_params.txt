@@ -1,2 +1,0 @@
-Best Parameters for Random Forest: {'model__max_depth': 10, 'model__min_samples_split': 2, 'model__n_estimators': 100}
-Best RMSE for Random Forest: 5.169498551999802
