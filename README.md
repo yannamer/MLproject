@@ -60,6 +60,7 @@ Le notebook **Energy consumption.ipynb** a pour but de séléctionner le meilleu
 3. **Sélection et évaluation des modèles** : Utilisation de plusieurs modèles de régression (RandomForest, XGBoost et HistGradientBoosting) pour prédire la consommation énergétique.
 4. **Validation croisée et GridSearch** : Optimisation des hyperparamètres pour chaque modèle à l’aide de GridSearchCV et stockage des meilleurs modèles dans MLflow.
 5. **Entraînement final** : Entraînement du modèle choisi avec les meilleurs paramètres trouvés et sauvegarde pour utilisation dans l’application Flask.
+6. **Metrics** : Les metrics seront automatiquement enregistré en format .txt dans le fichier dans lequel se trouve le .ipynb et pertont le nom du model concerné.
 
 ## Détails de l'Application (app.py)
 
